@@ -1,0 +1,33 @@
+{
+  "run": {
+    "maximum_runtime_seconds": 300,
+    "shutdown_grace_seconds": 3
+  },
+  "benchmark": {
+    "duration_seconds": 60,
+    "sample_interval_seconds": 0.2,
+    "task_iterations": 100000,
+    "task_modulus": 1000003
+  },
+  "calibration": {
+    "duration_seconds": 60,
+    "cv_warning_threshold": 0.05
+  },
+  "logger": {
+    "duration_seconds": 60,
+    "sample_interval_seconds": 1
+  },
+  "experiment": {
+    "cool_down_seconds": 180,
+    "monitor_poll_interval_seconds": 0.1
+  },
+  "workload": {
+    "worker_count": "logical_cores",
+    "total_work_units": 10000000000,
+    "chunk_size": 10000,
+    "progress_poll_interval_seconds": 0.1
+  },
+  "test": {
+    "duration_seconds": 20
+  }
+}

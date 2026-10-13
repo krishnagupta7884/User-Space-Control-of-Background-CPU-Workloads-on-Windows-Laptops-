@@ -1,0 +1,17 @@
+# Generated experiment data and evidence packages
+results/
+
+# Python bytecode and cache directories
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+.venv/
+venv/
+ENV/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
